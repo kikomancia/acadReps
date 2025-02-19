@@ -46,9 +46,16 @@ tbl_assigment{
   ass_id INT PK
   user_id INT FK
   task_id int FK
+  status INT FK
+  progress DOUBLE 
   date_assiged date
 }
 
 
-tbl_users.user_id - tbl_departments.department_id
+tbl_users.department_id - tbl_departments.department_id
+tbl_users.user_id <> tbl_access.user_id
+tbl_access.mod_id - tbl_modules.mod_id
+tbl_users.user_id <> tbl_assigment.user_id
+tbl_assigment.task_id - tbl_tasks.task_id
+
 
