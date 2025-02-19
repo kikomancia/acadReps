@@ -3,5 +3,10 @@
 
 
 
-
+<!-- eraser-additional-content -->
+## Diagrams
+<!-- eraser-additional-files -->
+<a href="/thesis_diagram-VARCHAR(255)-1.eraserdiagram" data-element-id="7o7RBOtV3oDUTN5i2cG9n"><img src="/.eraser/GtQ2yLUhh962BT13ALjr___sKkFHJpiYsXPcATzOBluVMUS1rx2___---diagram----9716a091a0157982cbec6073718cfd45-VARCHAR-255-.png" alt="" data-element-id="7o7RBOtV3oDUTN5i2cG9n" /></a>
+<!-- end-eraser-additional-files -->
+<!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/GtQ2yLUhh962BT13ALjr --->

@@ -1,0 +1,54 @@
+entity-relationship-diagram
+
+tbl_users {
+    user_id INT PK
+    first_name VARCHAR(50)
+    last_name VARCHAR(50)
+    email VARCHAR(100)
+    password VARCHAR(255) 
+    role VARCHAR(100)
+    created_at TIMESTAMP
+    department_id INT FK
+}
+
+tbl_departments{
+    department_id INT PK
+    department_type VARCHAR(200)
+    department_name VARCHAR(100)
+}
+
+tbl_modules{
+  mod_id INT PK
+  names VARCHAR(120)
+}
+
+tbl_access{
+  user_id INT FK
+  mod_id INT FK
+  save INT
+  update INT
+  delete INT 
+  print INT
+  download INT
+}
+
+tbl_tasks{
+    task_id INT PK
+    title VARCHAR(255)
+    description TEXT
+    priority INT
+    deadline DATE
+    created_by INT
+    created_at TIMESTAMP
+}
+
+tbl_assigment{
+  ass_id INT PK
+  user_id INT FK
+  task_id int FK
+  date_assiged date
+}
+
+
+tbl_users.user_id - tbl_departments.department_id
+
